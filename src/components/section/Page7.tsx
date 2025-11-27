@@ -48,7 +48,8 @@ const Page7: React.FC = () => {
                     {/* Headline (motion) */}
                     <motion.h1
                         initial={{ opacity: 0, y: -8 }}
-                        animate={{ opacity: 1, y: 0 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: false, amount: 0.3 }}
                         transition={{ duration: 0.8 }}
                         className="text-3xl leading-tight tracking-[-0.02em] font-bold text-white uppercase"
                         style={{ fontFamily: "'Roboto Condensed', sans-serif" }}

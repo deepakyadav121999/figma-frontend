@@ -109,7 +109,7 @@ const Page6: React.FC = () => {
           variants={container}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={{ once: false, amount: 0.2 }}
           className="grid grid-cols-1 sm:grid-cols-2 gap-8"
         >
           {cards.map((c, i) => (
