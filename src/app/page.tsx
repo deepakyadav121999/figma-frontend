@@ -6,7 +6,10 @@ import Page5 from "@/components/section/Page5"
 import Page6 from "@/components/section/Page6"
 import Page7 from "@/components/section/Page7"
 import Page8 from "@/components/section/Page8"
-import Page9 from "@/components/section/Page9"
+
+import Page18 from "@/components/section/Page18"
+import Page10 from "@/components/section/page10"
+
 const Home = () => {
   return (
     <div className="overflow-x-hidden">
@@ -18,7 +21,8 @@ const Home = () => {
       <Page6/>
       <Page7/>
       <Page8/>
-      <Page9/>
+      <Page10/>
+      <Page18/>
       </div>
   )
 }

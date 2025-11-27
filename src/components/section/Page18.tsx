@@ -14,7 +14,7 @@ const fade = {
   }),
 };
 
-const Page9: React.FC = () => {
+const Page18: React.FC = () => {
   return (
     <div className="w-full bg-white overflow-x-hidden">
       <section className="flex justify-center py-16 md:py-20 px-6">
@@ -120,4 +120,4 @@ const Page9: React.FC = () => {
   );
 };
 
-export default Page9;
+export default Page18;
